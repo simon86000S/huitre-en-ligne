@@ -23,6 +23,12 @@ body{
 .logoStyle{
     height:46px;
 }
+.article1{
+    height:50%;
+}
+.article2{
+    height: 50%;
+}
 .article1 h2{
     font-size:32px;
     color:white;
