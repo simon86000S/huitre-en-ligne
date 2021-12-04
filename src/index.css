@@ -280,20 +280,18 @@ height: 23vh;
 /*Wrapper*/
 
 .containers{
- 
-   display: block;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-around;
-
-background-image: url('../src/components/img/dream.png') ;    
-background-size: contain;
-opacity: 1;
-font-family: 'Artifika', serif;
-
-
-
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  background-position: 20%;
   
+  background-image:url('../src/components/img/r.png')  ;
+  font-family: 'Artifika', serif;
+  -webkit-backface-visibility:;
 }
 .container1{
   height: 102%;

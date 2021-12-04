@@ -40,6 +40,7 @@ body{
 .buttons .btn{
     font-size: 18px;
 }
+
 .containers .container1{
     width:50%;
     text-align: center;
@@ -47,6 +48,23 @@ body{
 }
 .container .slide h1{
     font-size: 36px;
+}
+.containers .container2{
+    background:none;
+}
+.containers .container3{
+    background:none;
+}
+.container2 img{
+    
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+    transform: translate(50%,0%);
+   
+
 }
 
 .slide .img-huitre{
