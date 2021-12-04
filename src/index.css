@@ -24,14 +24,24 @@
 .q-hero p{
 font-size:11px;
 }
+.burger{
+  cursor:pointer;
+}
 .menu-burger{
   position: absolute;
   transform: translate3d(-13px, 92px, 10px);
   cursor: pointer;
+  padding:5px;
   
      
 }
-
+.zoom{
+  transform:scale(1.2) ;
+  -webkit-transform:scale(1.2) ;
+  -moz-transform:scale(1.2) ;
+  -ms-transform:scale(1.2) ;
+  -o-transform:scale(1.2) ;
+}
 .menu-burger span {
   content: "";
   position: absolute;

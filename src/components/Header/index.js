@@ -33,7 +33,7 @@ nav.current.classList.add("showMenu")
             <Link  to='/panier'><FontAwesomeIcon style={{cursor:'pointer',color:'white'}} icon={faBagShopping}></FontAwesomeIcon></Link></h1>
             
        <div onClick={showMenu}  className="menu-burger">
-           <span  ></span>
+           <span></span>
            <span></span>
            <span></span>
         </div>
