@@ -289,9 +289,9 @@ height: 23vh;
   background-size: contain;
   background-position: 20%;
   
-  background-image:url('../src/components/img/r.png')  ;
+  background-image:url('../src/components/img/abstrait.jpg')  ;
   font-family: 'Artifika', serif;
-  -webkit-backface-visibility:;
+  
 }
 .container1{
   height: 102%;

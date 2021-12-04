@@ -30,15 +30,30 @@ body{
     height: 50%;
 }
 .buttons .article1 h2{
-    font-size:32px;
+    font-size:25px;
     color:white;
+}
+.buttons .article2 h2{
+    font-size:25px;
+    color:white;
+}
+.buttons .article2 p{
+    color:white;
+    font-size: 15px;
 }
 .buttons .article1 p{
     color:white;
-    font-size: 16px;
+    font-size: 15px;
 }
+.buttons .article2 img{
+    z-index: -1;
+    height: 212px;
+    margin-top: 35px;
+    border-radius: 50%;
+}
+
 .buttons .btn{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .containers .container1{
@@ -46,7 +61,8 @@ body{
     text-align: center;
     font-size: 18px;
 }
-.container .slide h1{
+.slide h1{
+    
     font-size: 36px;
 }
 .containers .container2{
@@ -61,8 +77,8 @@ body{
     width: 100%;
     height: 100%;
     margin: 0px;
+    transform: translate(214%,-46%);
 
-    transform: translate(50%,0%);
    
 
 }
@@ -78,6 +94,17 @@ body{
     
 }
 
+.containers .container3 h1 {
+    text-align: start;
+    font-size:58px;
+}
+.containers .container3 p{
+    color:black;
+    text-align: center;
+    font-size:15px;
+}
+.containers .container3 img{
+    margin:0;
 
-
+}
 }
