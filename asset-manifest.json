@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/huitre-en-ligne/static/css/main.82e47d29.chunk.css",
+    "main.css": "/huitre-en-ligne/static/css/main.129b5d86.chunk.css",
     "main.js": "/huitre-en-ligne/static/js/main.b10442fa.chunk.js",
     "main.js.map": "/huitre-en-ligne/static/js/main.b10442fa.chunk.js.map",
     "runtime-main.js": "/huitre-en-ligne/static/js/runtime-main.4968680f.js",
@@ -10,7 +10,7 @@
     "static/js/3.37a65229.chunk.js": "/huitre-en-ligne/static/js/3.37a65229.chunk.js",
     "static/js/3.37a65229.chunk.js.map": "/huitre-en-ligne/static/js/3.37a65229.chunk.js.map",
     "index.html": "/huitre-en-ligne/index.html",
-    "static/css/main.82e47d29.chunk.css.map": "/huitre-en-ligne/static/css/main.82e47d29.chunk.css.map",
+    "static/css/main.129b5d86.chunk.css.map": "/huitre-en-ligne/static/css/main.129b5d86.chunk.css.map",
     "static/js/2.6ffd338a.chunk.js.LICENSE.txt": "/huitre-en-ligne/static/js/2.6ffd338a.chunk.js.LICENSE.txt",
     "static/media/cadeaux.5e6391da.jpg": "/huitre-en-ligne/static/media/cadeaux.5e6391da.jpg",
     "static/media/camion.8691816e.jpg": "/huitre-en-ligne/static/media/camion.8691816e.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.4968680f.js",
     "static/js/2.6ffd338a.chunk.js",
-    "static/css/main.82e47d29.chunk.css",
+    "static/css/main.129b5d86.chunk.css",
     "static/js/main.b10442fa.chunk.js"
   ]
 }
