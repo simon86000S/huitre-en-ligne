@@ -6,6 +6,9 @@
     font-size: 25px;
    
 }
+body{
+    overflow-x: hidden;
+}
 
 .q-hero h1 img{
     margin-right: 25px;
