@@ -29,16 +29,28 @@ body{
 .article2{
     height: 50%;
 }
-.article1 h2{
+.buttons .article1 h2{
     font-size:32px;
     color:white;
 }
-.article1 p{
+.buttons .article1 p{
     color:white;
     font-size: 16px;
 }
-.btn{
+.buttons .btn{
     font-size: 18px;
+}
+.containers .container1{
+    width:50%;
+    text-align: center;
+    font-size: 18px;
+}
+.container .slide h1{
+    font-size: 36px;
+}
+
+.slide .img-huitre{
+    height: 138px;
 }
 .ancre{
     height:50px;
@@ -47,8 +59,7 @@ body{
     font-size:2.3rem;
     
 }
-.colunm-client{
- 
-    align-items: center;
-}
+
+
+
 }
