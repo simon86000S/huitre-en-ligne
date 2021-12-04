@@ -7,7 +7,7 @@
    
 }
 .q-hero h1{
-    font-size:32px;
+    font-size:34px;
 }
 body{
     overflow-x: hidden;
@@ -23,7 +23,17 @@ body{
 .logoStyle{
     height:46px;
 }
-
+.article1 h2{
+    font-size:32px;
+    color:white;
+}
+.article1 p{
+    color:white;
+    font-size: 16px;
+}
+.btn{
+    font-size: 18px;
+}
 .ancre{
     height:50px;
 }
