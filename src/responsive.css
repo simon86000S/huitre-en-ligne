@@ -1,0 +1,32 @@
+@media (min-width: 700px){
+.q-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+   
+}
+
+.q-hero h1 img{
+    margin-right: 25px;
+}
+.logo{
+ margin:12px;
+   height: 46px;
+}
+.logoStyle{
+    height:46px;
+}
+
+.ancre{
+    height:50px;
+}
+.container h1 span {
+    font-size:2.3rem;
+    
+}
+.colunm-client{
+ 
+    align-items: center;
+}
+}
