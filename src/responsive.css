@@ -6,6 +6,9 @@
     font-size:16px;
    
 }
+.q-hero h1{
+    font-size:20px;
+}
 body{
     overflow-x: hidden;
 }
