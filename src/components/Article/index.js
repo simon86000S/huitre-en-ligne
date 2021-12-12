@@ -2,6 +2,7 @@ import React from 'react';
 import {Link } from 'react-router-dom';
 import huitre from '../img/huitre.png'
 
+
 const Article = () => {
     return (
         <div className="container-article">

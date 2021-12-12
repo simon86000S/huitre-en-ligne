@@ -9,6 +9,7 @@ import Wrapper from '../Wrapper';
 import Signup from '../Signup';
 import Welcome from '../Welcome';
 import Sale from '../Sale';
+
 import "../../index.css";
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 
@@ -31,12 +32,12 @@ function App() {
      <Route path='/Signup' component={Signup}/>
      <Route path='/sale' component={Sale}/>
      <Route path="/panier" component={Panier}/>
-     
+
      
      
     
      </Switch>
-     <Landing></Landing>
+   <Landing></Landing>
      <Article></Article>
      <Aside></Aside>
      <Wrapper></Wrapper>
