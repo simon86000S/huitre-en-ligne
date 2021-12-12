@@ -101,6 +101,7 @@ body{
 .containers .container3 h1 {
     text-align: start;
     font-size:58px;
+    color:black;
    
 }
 .containers .container3 p{
@@ -112,4 +113,6 @@ body{
     margin:0;
 
 }
-}
+
+
+
