@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/huitre-en-ligne/static/css/main.eb6ffebb.chunk.css",
-    "main.js": "/huitre-en-ligne/static/js/main.bdcfbe4c.chunk.js",
-    "main.js.map": "/huitre-en-ligne/static/js/main.bdcfbe4c.chunk.js.map",
-    "runtime-main.js": "/huitre-en-ligne/static/js/runtime-main.4968680f.js",
-    "runtime-main.js.map": "/huitre-en-ligne/static/js/runtime-main.4968680f.js.map",
-    "static/js/2.abbe961f.chunk.js": "/huitre-en-ligne/static/js/2.abbe961f.chunk.js",
-    "static/js/2.abbe961f.chunk.js.map": "/huitre-en-ligne/static/js/2.abbe961f.chunk.js.map",
-    "static/js/3.37a65229.chunk.js": "/huitre-en-ligne/static/js/3.37a65229.chunk.js",
-    "static/js/3.37a65229.chunk.js.map": "/huitre-en-ligne/static/js/3.37a65229.chunk.js.map",
+    "main.css": "/huitre-en-ligne/static/css/main.8c0e1a33.chunk.css",
+    "main.js": "/huitre-en-ligne/static/js/main.d6a90488.chunk.js",
+    "main.js.map": "/huitre-en-ligne/static/js/main.d6a90488.chunk.js.map",
+    "runtime-main.js": "/huitre-en-ligne/static/js/runtime-main.eb6efbed.js",
+    "runtime-main.js.map": "/huitre-en-ligne/static/js/runtime-main.eb6efbed.js.map",
+    "static/js/2.47ff9b20.chunk.js": "/huitre-en-ligne/static/js/2.47ff9b20.chunk.js",
+    "static/js/2.47ff9b20.chunk.js.map": "/huitre-en-ligne/static/js/2.47ff9b20.chunk.js.map",
+    "static/js/3.64c2b15f.chunk.js": "/huitre-en-ligne/static/js/3.64c2b15f.chunk.js",
+    "static/js/3.64c2b15f.chunk.js.map": "/huitre-en-ligne/static/js/3.64c2b15f.chunk.js.map",
     "index.html": "/huitre-en-ligne/index.html",
-    "static/css/main.eb6ffebb.chunk.css.map": "/huitre-en-ligne/static/css/main.eb6ffebb.chunk.css.map",
-    "static/js/2.abbe961f.chunk.js.LICENSE.txt": "/huitre-en-ligne/static/js/2.abbe961f.chunk.js.LICENSE.txt",
+    "static/css/main.8c0e1a33.chunk.css.map": "/huitre-en-ligne/static/css/main.8c0e1a33.chunk.css.map",
+    "static/js/2.47ff9b20.chunk.js.LICENSE.txt": "/huitre-en-ligne/static/js/2.47ff9b20.chunk.js.LICENSE.txt",
     "static/media/index.css": "/huitre-en-ligne/static/media/photohuitre.bf6a1d6a.jpg",
     "static/media/cadeaux.5e6391da.jpg": "/huitre-en-ligne/static/media/cadeaux.5e6391da.jpg",
     "static/media/camion.8691816e.jpg": "/huitre-en-ligne/static/media/camion.8691816e.jpg",
@@ -29,9 +29,9 @@
     "static/media/telephone.eca5d3be.jpg": "/huitre-en-ligne/static/media/telephone.eca5d3be.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4968680f.js",
-    "static/js/2.abbe961f.chunk.js",
-    "static/css/main.eb6ffebb.chunk.css",
-    "static/js/main.bdcfbe4c.chunk.js"
+    "static/js/runtime-main.eb6efbed.js",
+    "static/js/2.47ff9b20.chunk.js",
+    "static/css/main.8c0e1a33.chunk.css",
+    "static/js/main.d6a90488.chunk.js"
   ]
 }
