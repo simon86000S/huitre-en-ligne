@@ -361,7 +361,7 @@ height: 23vh;
 .container3 h1{
   text-align: center;
 }
-.btn{
+.btn {
   
   display :flex;
   justify-content: center;
@@ -477,9 +477,9 @@ text-align: center;
   display:flex;
     justify-content: space-between;
   left:0;
-  top: 264px;
+  top: 208px;
   background-color:#0b182a;
-  width:100%;
+  width:60%;
   height:100%;
   transform: translate3d(-100%,-9px,0);
   transition:transform 500ms ease-in;
@@ -501,6 +501,50 @@ padding:20px;
 }
 
 
+
+.element1{
+ display:flex;
+ color:whitesmoke;
+ padding:10px 35px;
+ text-decoration: none;
+ list-style-type: none;
+ transform:translateX(-100%) ;
+ -webkit-transform:translateX(-100%) ;
+ -moz-transform:translateX(-100%) ;
+ -ms-transform:translateX(-100%) ;
+ -o-transform:translateX(-100%) ;
+ 
+ 
+}
+.element1:hover{
+  color:grey;
+}
+
+.showLi{
+ transform: translateX(100%);
+ -webkit-transform: translateX(100%);
+ -moz-transform: translateX(100%);
+ -ms-transform: translateX(100%);
+ -o-transform: translateX(100%);
+ transition:ease-in-out 2s ;
+ -webkit-transition:ease-in-out 2s ;
+ -moz-transition:ease-in-out 2s ;
+ -ms-transition:ease-in-out 2s ;
+ -o-transition:ease-in-out 2s ;
+
+}
+.effectButton{
+  transform: translateX(-100%);
+  transition: transform ease-in-out 2s;
+  -webkit-transition: transform ease-in-out 2s;
+  -moz-transition: transform ease-in-out 2s;
+  -ms-transition: transform ease-in-out 2s;
+  -o-transition: transform ease-in-out 2s;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+}
 /*show-Menu*/
 
 .showMenu{

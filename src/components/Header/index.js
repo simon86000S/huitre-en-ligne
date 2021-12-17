@@ -10,10 +10,8 @@ import login from'../Login/index';
 
 
  const Header = () => {
-   
+const showLi = useRef(null)
 const nav = useRef(null)
-
-
 
    const showMenu=()=>{
 nav.current.classList.add("showMenu")
@@ -23,7 +21,22 @@ nav.current.classList.add("showMenu")
    const hiddenMenu=()=>{
      nav.current.classList.remove('showMenu')
    }
+const showli=()=>{
+    showLi.current.classList.add('showLi')
+}
+const hiddenli=()=>{
+    if(showLi.current.classList.remove('showLi'))
+    showLi.current.classList.add('effectButton')
+    }
+   
+       
+
+    
+
     return (
+
+
+
         <div   className="q-hero">
             
             <h1><img style={{transform:"translateX(-2px)",height:"50px",width:'50px',borderRadius:'50%'}}src={huitre3}/>huître  
@@ -40,17 +53,21 @@ nav.current.classList.add("showMenu")
          
         <nav ref={nav} class="navigation">
                 <ul  className="nav"  >
-                <h1 className="title-nav">Menu</h1>
+                <h1   className="title-nav">Menu</h1>
                
-                <li  >NOS HUITRES</li>
+                <li style={{cursor:'pointer'}} onMouseOver={showli}  className='first-li'>NOS HUITRES<button style={{width:"20px",marginLeft:'20px'}} onClick={hiddenli} ><i style={{display:'block',fontSize:'15px'}}>-</i></button></li>
+                <div  className='nav-menu '  ref={showLi}  >
+                    <Link className="element1" to ='/'>-huitre plate</Link>
+                    <Link  className="element1" to ='/'>-huitre creuse</Link>
+                    <Link className="element1" to ='/'>-huitre naturelle </Link>
+                    </div>
                 <div onClick={hiddenMenu} className="burger">
                     <span></span>
                     <span></span>
                     </div>
                 <ul  className="nav-Menu">
-                    <Link className="element" to ='/'>-h</Link>
-                    <Link className="element" to ='/'>-hui</Link>
-                    <Link className="element" to ='/'>-hui </Link>
+                   
+                   
                 </ul>
                 <li>NOS PRODUCTEURS</li>
                
