@@ -13,6 +13,9 @@ import login from'../Login/index';
 const showLi = useRef(null)
 const nav = useRef(null)
 
+
+
+
    const showMenu=()=>{
 nav.current.classList.add("showMenu")
    }
@@ -69,13 +72,13 @@ const hiddenli=()=>{
                    
                    
                 </ul>
-                <li>NOS PRODUCTEURS</li>
+                <li style={{cursor:'pointer'}}>NOS PRODUCTEURS</li>
                
-                <li>BIO</li>
-                <li>REPAS DE FETE</li>
-                <li>QUALITE</li>
-                <li>LIVRAISON</li>
-                <li>CONTACT</li>
+                <li style={{cursor:'pointer'}}>BIO</li>
+                <li style={{cursor:'pointer'}}>REPAS DE FETE</li>
+                <li style={{cursor:'pointer'}} >QUALITE</li>
+                <li style={{cursor:'pointer'}}>LIVRAISON</li>
+                <li style={{cursor:'pointer'}}>CONTACT</li>
                </ul>
             </nav>
         </div>
