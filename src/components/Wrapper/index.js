@@ -1,4 +1,4 @@
-import React,{Fragment,useEffect} from 'react';
+import React,{Fragment,useEffect,useState} from 'react';
 import baie from '../img/photo1.jpg';
 import huitrespeciale from'../img/huitrespeciale.jpg';
 import photo1 from '../img/photo1.jpg';
@@ -9,19 +9,27 @@ import photo5 from '../img/photo5.jpg';
 import photo6 from '../img/photo6.jpg';
 import huitrecreusebaie from '../img/huitrecreusebaie.jpg';
 import {Link } from 'react-router-dom';
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
-gsap.registerPlugin(ScrollTrigger);
+
+
 
 
 const Wrapper = () => {
- 
+
+  useEffect(() => {
+    Aos.init({
+        duration:2000
+    })
+  
+}, [])
+  
   
     return (
         
              <div className="containers">
-           <div className="container1">
+           <div data-aos="fade-right" className="container1">
                <h1><i className='first-letter'>H</i>uitre de qualit<i className="last-letter">é</i></h1>
                <h2>L'huitres creuse</h2>
                <p>Nos huitres péchées dans la baie de Quiberon, offrent un gout exceptionnelle et unique de part sa qualité unique
@@ -36,10 +44,10 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
                </p>
            </div>
            
-        <div className="container2"><img style={{width:'50%',height:"100%",margin:"0"}} src={baie}></img>
+        <div  data-aos="fade-left" className="container2"><img style={{width:'50%',height:"100%",margin:"0"}} src={baie}></img>
         </div>
-        <div className="container3">
-            <h1><i className='first-letter'>Huitre de la</i> baie de <i className="last-letter">Quiberon</i></h1>
+        <div  data-aos="fade-bottom" className="container3">
+            <h1  data-aos="fade-bottom"><i className='first-letter'>Huitre de la</i> baie de <i className="last-letter">Quiberon</i></h1>
             <p>Retrouvez la gamme d’excellence des huîtres creuse produites par les maîtres affineurs fred qui est 
                 l'une des exploitations les plus réputées de la baie de Quiberon. 
                </p>
@@ -47,26 +55,26 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
         <Link className="btn" to="/">Découvrir</Link></div>
        
         
-        <div className="article-images">
- <div>
-  <img className="skewElem" style={{width:'100%',height:'100%'}} src={photo1}></img>
+        <div  className="article-images">
+ <div  >
+  <img  data-aos="fade-right" className="skewElem" style={{width:'100%',height:'100%'}} src={photo1}></img>
   </div>
   <div>
-  <img className="skewElem"  style={{width:'100%',height:'100%'}} src={photo2}></img>
+  <img  data-aos="fade-left" className="skewElem"  style={{width:'100%',height:'100%'}} src={photo2}></img>
   </div>
   <div>
-  <img className="skewElem"  style={{width:'100%',height:'100%'}} src={photo3}></img>
+  <img  data-aos="fade-right" className="skewElem"  style={{width:'100%',height:'100%'}} src={photo3}></img>
   </div>
   <div>
-  <img className="skewElem"  style={{width:'100%',height:'100%'}} src={photo4}></img>
+  <img  data-aos="fade-left"className="skewElem"  style={{width:'100%',height:'100%'}} src={photo4}></img>
   
   </div>
   <div>
-  <img className="skewElem"  style={{width:'100%',height:'100%'}} src={photo5}></img>
+  <img  data-aos="fade-right"className="skewElem"  style={{width:'100%',height:'100%'}} src={photo5}></img>
   
   </div>
   <div>
-  <img className="skewElem"  style={{width:'100%',height:'100%'}} src={photo6}></img>
+  <img  data-aos="fade-left" className="skewElem"  style={{width:'100%',height:'100%'}} src={photo6}></img>
   
   
  </div>

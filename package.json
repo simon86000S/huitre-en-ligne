@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "aos": "^2.3.4",
     "babel-plugin-macros": "^2.8.0",
     "firebase": "^9.5.0",
     "git": "^0.1.5",

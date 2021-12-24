@@ -19,6 +19,7 @@ useEffect(() => {
      setBtn(true)
  }else{
      setBtn(false)
+     
  }
    
 }, [registerPassword])
