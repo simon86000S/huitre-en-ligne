@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/huitre-en-ligne/static/css/main.6d490a3d.chunk.css",
-    "main.js": "/huitre-en-ligne/static/js/main.53610cb3.chunk.js",
-    "main.js.map": "/huitre-en-ligne/static/js/main.53610cb3.chunk.js.map",
+    "main.css": "/huitre-en-ligne/static/css/main.b260c1c4.chunk.css",
+    "main.js": "/huitre-en-ligne/static/js/main.2d6b0ffb.chunk.js",
+    "main.js.map": "/huitre-en-ligne/static/js/main.2d6b0ffb.chunk.js.map",
     "runtime-main.js": "/huitre-en-ligne/static/js/runtime-main.eb6efbed.js",
     "runtime-main.js.map": "/huitre-en-ligne/static/js/runtime-main.eb6efbed.js.map",
-    "static/js/2.47ff9b20.chunk.js": "/huitre-en-ligne/static/js/2.47ff9b20.chunk.js",
-    "static/js/2.47ff9b20.chunk.js.map": "/huitre-en-ligne/static/js/2.47ff9b20.chunk.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/huitre-en-ligne/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.d0eb265c.chunk.js": "/huitre-en-ligne/static/js/2.d0eb265c.chunk.js",
+    "static/js/2.d0eb265c.chunk.js.map": "/huitre-en-ligne/static/js/2.d0eb265c.chunk.js.map",
     "static/js/3.64c2b15f.chunk.js": "/huitre-en-ligne/static/js/3.64c2b15f.chunk.js",
     "static/js/3.64c2b15f.chunk.js.map": "/huitre-en-ligne/static/js/3.64c2b15f.chunk.js.map",
     "index.html": "/huitre-en-ligne/index.html",
-    "static/css/main.6d490a3d.chunk.css.map": "/huitre-en-ligne/static/css/main.6d490a3d.chunk.css.map",
-    "static/js/2.47ff9b20.chunk.js.LICENSE.txt": "/huitre-en-ligne/static/js/2.47ff9b20.chunk.js.LICENSE.txt",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/huitre-en-ligne/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.b260c1c4.chunk.css.map": "/huitre-en-ligne/static/css/main.b260c1c4.chunk.css.map",
+    "static/js/2.d0eb265c.chunk.js.LICENSE.txt": "/huitre-en-ligne/static/js/2.d0eb265c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/huitre-en-ligne/static/media/photohuitre.bf6a1d6a.jpg",
     "static/media/cadeaux.5e6391da.jpg": "/huitre-en-ligne/static/media/cadeaux.5e6391da.jpg",
     "static/media/camion.8691816e.jpg": "/huitre-en-ligne/static/media/camion.8691816e.jpg",
@@ -30,8 +32,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.eb6efbed.js",
-    "static/js/2.47ff9b20.chunk.js",
-    "static/css/main.6d490a3d.chunk.css",
-    "static/js/main.53610cb3.chunk.js"
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.d0eb265c.chunk.js",
+    "static/css/main.b260c1c4.chunk.css",
+    "static/js/main.2d6b0ffb.chunk.js"
   ]
 }
