@@ -448,7 +448,7 @@ text-align: center;
   }
   .sale-oyster{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -458,10 +458,18 @@ text-align: center;
    
 
   }
+  .title-oyester{
+    font-size: 50px;
+    margin-right: 20px;
+    }
 
   .sale-oyster img{
+    margin-top: 25px;
     width:50%;
+   
+    
   }
+  
   .wrapper-oyster p{
     color:#200505;
      font-size: 17px;

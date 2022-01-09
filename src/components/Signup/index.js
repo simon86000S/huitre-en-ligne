@@ -34,11 +34,12 @@ const user= await createUserWithEmailAndPassword(
     console.log(user)
     alert("success")
     setRegisterPassword("")
-    setRegisterPassword("")
+    
     
      }catch(error){
     console.log(error.message)
-    alert("6 charactere minimum")
+    alert("6 charactere minimum");
+    
     
      }
     };

@@ -1,5 +1,5 @@
 
-import { useState} from 'react'; 
+import { useState,Redirect} from 'react'; 
 import {Link} from 'react-router-dom';
 import {signInWithEmailAndPassword} from"firebase/auth";
 import {auth} from '../firebase';
@@ -9,6 +9,7 @@ import {auth} from '../firebase';
     
     const[loginPassword,setLoginPassword]=useState("")
    const[loginEmail,setLoginEmail]=useState("")
+   
 
    
     const register=async()=>{
@@ -20,21 +21,26 @@ const user= await signInWithEmailAndPassword(
     );
     console.log(user)
     alert("success")
+    setLoginEmail('')
+    
     
      }catch(error){
     console.log(error.message)
     alert('le mot de passe doit contenir minimum 6 charactére ')
+    
      }
     };
 
      return(
          <div id="main" className="signupUser">
+            
          <h2>Connectez-vous à votre compte</h2>
 <form className="form">
 <div  className="inputBox">
 <label>Entrer votre Email</label> 
 <input 
 onChange={(event)=>{setLoginEmail(event.target.value)}}
+
 
    placeholder='Email'></input>
 
@@ -53,6 +59,8 @@ type="password" placeholder='votre mot de passe'></input>
 <button  onClick={register} className="btn-acceuil" >Connexion</button>
 <Link className="btn-acceuil" to="/Signup">Vous voulez vous incrire? incrivez-vous</Link>
 <Link className="btn-acceuil" to="/Landing">Revenir page d'accueuil</Link>
+
+
          </div>
         
      )

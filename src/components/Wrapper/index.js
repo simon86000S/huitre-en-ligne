@@ -7,6 +7,7 @@ import photo3 from '../img/photo3.jpg';
 import photo4 from '../img/photo4.jpg';
 import photo5 from '../img/photo5.jpg';
 import photo6 from '../img/photo6.jpg';
+import huitre7 from '../img/huitre7.jpg'
 import huitrecreusebaie from '../img/huitrecreusebaie.jpg';
 import {Link } from 'react-router-dom';
 import Aos from 'aos';
@@ -81,11 +82,18 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
 
  </div>
  <div className="sale-oyster">
-   <h1>Nos ventes</h1>
+   <h1 className='title-oyester'>Nos ventes</h1>
+   <h2>huitre baie de quiberon</h2>
   <div className="wrapper-oyster">
-    <h2>huitre baie de quiberon</h2>
-    <Link to="/sale"><img  src={huitrecreusebaie}/></Link>
-    <p>Prix:14 euros la bourriche</p>
+    
+    <Link  to="/sale"><img data-aos="fade-up"  src={huitrecreusebaie}/></Link>
+    <button>Commander</button>
+    <p data-aos="fade-up">Prix:14 euros la bourriche (huitres plates)</p>
+    
+    <Link to="/sale"><img style={{marginTop:"150px"}} data-aos="fade-up"   src={huitre7}/></Link>
+    <button>Commander</button>
+    <p >Prix:12 euros la bourriche (huitres creuses)</p>
+   
 
     
 

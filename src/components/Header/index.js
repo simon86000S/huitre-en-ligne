@@ -58,12 +58,8 @@ const hiddenli=()=>{
                 <ul  className="nav"  >
                 <h1   className="title-nav">Menu</h1>
                
-                <li style={{cursor:'pointer'}} onMouseOver={showli}  className='first-li'>NOS HUITRES<button style={{width:"20px",marginLeft:'75%',cursor:'pointer'}} onClick={hiddenli} ><i style={{display:'block',fontSize:'15px'}}>-</i></button></li>
-                <div  className='nav-menu '  ref={showLi}  >
-                    <Link className="element1" to ='/'>-huitre plate</Link>
-                    <Link  className="element1" to ='/'>-huitre creuse</Link>
-                    <Link className="element1" to ='/'>-huitre naturelle </Link>
-                    </div>
+                <li style={{cursor:'pointer'}}  className='first-li'>NOS HUITRES</li>
+               
                 <div onClick={hiddenMenu} className="burger">
                     <span></span>
                     <span></span>
@@ -72,8 +68,7 @@ const hiddenli=()=>{
                    
                    
                 </ul>
-                <li style={{cursor:'pointer'}}>NOS PRODUCTEURS <button style={{display:"block",width:"20px",marginLeft:'80%',cursor:'pointer'}} onClick={hiddenli} ><i style={{display:'block',fontSize:'15px'}}>-</i></button></li>
-                <Link className="element2" to ='/'>-huitre naturelle </Link>
+                <li style={{cursor:'pointer'}}>NOS PRODUCTEURS</li>
                 <li style={{cursor:'pointer'}}>BIO </li>
                 <li style={{cursor:'pointer'}}>REPAS DE FETE</li>
                 <li style={{cursor:'pointer'}} >QUALITE</li>
