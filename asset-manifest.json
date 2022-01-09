@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/huitre-en-ligne/static/css/main.b260c1c4.chunk.css",
-    "main.js": "/huitre-en-ligne/static/js/main.2d6b0ffb.chunk.js",
-    "main.js.map": "/huitre-en-ligne/static/js/main.2d6b0ffb.chunk.js.map",
+    "main.css": "/huitre-en-ligne/static/css/main.c113e130.chunk.css",
+    "main.js": "/huitre-en-ligne/static/js/main.bedeb436.chunk.js",
+    "main.js.map": "/huitre-en-ligne/static/js/main.bedeb436.chunk.js.map",
     "runtime-main.js": "/huitre-en-ligne/static/js/runtime-main.eb6efbed.js",
     "runtime-main.js.map": "/huitre-en-ligne/static/js/runtime-main.eb6efbed.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/huitre-en-ligne/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.d0eb265c.chunk.js": "/huitre-en-ligne/static/js/2.d0eb265c.chunk.js",
-    "static/js/2.d0eb265c.chunk.js.map": "/huitre-en-ligne/static/js/2.d0eb265c.chunk.js.map",
+    "static/js/2.4ee4d09a.chunk.js": "/huitre-en-ligne/static/js/2.4ee4d09a.chunk.js",
+    "static/js/2.4ee4d09a.chunk.js.map": "/huitre-en-ligne/static/js/2.4ee4d09a.chunk.js.map",
     "static/js/3.64c2b15f.chunk.js": "/huitre-en-ligne/static/js/3.64c2b15f.chunk.js",
     "static/js/3.64c2b15f.chunk.js.map": "/huitre-en-ligne/static/js/3.64c2b15f.chunk.js.map",
     "index.html": "/huitre-en-ligne/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/huitre-en-ligne/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.b260c1c4.chunk.css.map": "/huitre-en-ligne/static/css/main.b260c1c4.chunk.css.map",
-    "static/js/2.d0eb265c.chunk.js.LICENSE.txt": "/huitre-en-ligne/static/js/2.d0eb265c.chunk.js.LICENSE.txt",
+    "static/css/main.c113e130.chunk.css.map": "/huitre-en-ligne/static/css/main.c113e130.chunk.css.map",
+    "static/js/2.4ee4d09a.chunk.js.LICENSE.txt": "/huitre-en-ligne/static/js/2.4ee4d09a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/huitre-en-ligne/static/media/photohuitre.bf6a1d6a.jpg",
     "static/media/cadeaux.5e6391da.jpg": "/huitre-en-ligne/static/media/cadeaux.5e6391da.jpg",
     "static/media/camion.8691816e.jpg": "/huitre-en-ligne/static/media/camion.8691816e.jpg",
     "static/media/carte.d5d3286f.jpg": "/huitre-en-ligne/static/media/carte.d5d3286f.jpg",
     "static/media/huitre.e7ae847e.png": "/huitre-en-ligne/static/media/huitre.e7ae847e.png",
     "static/media/huitre3.637ad136.jpg": "/huitre-en-ligne/static/media/huitre3.637ad136.jpg",
+    "static/media/huitre7.602592e3.jpg": "/huitre-en-ligne/static/media/huitre7.602592e3.jpg",
     "static/media/huitrecreusebaie.c359d656.jpg": "/huitre-en-ligne/static/media/huitrecreusebaie.c359d656.jpg",
     "static/media/huitredessin.a5e552fc.jpg": "/huitre-en-ligne/static/media/huitredessin.a5e552fc.jpg",
     "static/media/huitrespeciale.7730f3e0.jpg": "/huitre-en-ligne/static/media/huitrespeciale.7730f3e0.jpg",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.eb6efbed.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.d0eb265c.chunk.js",
-    "static/css/main.b260c1c4.chunk.css",
-    "static/js/main.2d6b0ffb.chunk.js"
+    "static/js/2.4ee4d09a.chunk.js",
+    "static/css/main.c113e130.chunk.css",
+    "static/js/main.bedeb436.chunk.js"
   ]
 }
