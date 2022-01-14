@@ -307,6 +307,7 @@ height: 23vh;
   background-image:url('../src/components/img/abstrait.jpg')  ;
   font-family: 'Artifika', serif;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .container1{
   height: 102%;
