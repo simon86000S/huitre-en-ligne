@@ -460,12 +460,15 @@ text-align: center;
     text-align: center;
     font-size: 15px;
 
-   
+  
 
   }
   .title-oyester{
     font-size: 50px;
-    margin-right: 20px;
+   
+    }
+    .title-oyester h2{
+      transform: translateX(73px);
     }
 
   .sale-oyster img{
@@ -478,6 +481,7 @@ text-align: center;
   .wrapper-oyster p{
     color:#200505;
      font-size: 17px;
+    
   }
 .sale{
   z-index: 152;
