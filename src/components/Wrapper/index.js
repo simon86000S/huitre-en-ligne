@@ -19,6 +19,7 @@ import "aos/dist/aos.css";
 
 const Wrapper = () => {
 
+
   useEffect(() => {
     Aos.init({
         duration:2000

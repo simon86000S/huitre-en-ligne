@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin:0;
   padding:0;
+  
 }
 /*HEADER*/
 .q-hero{
@@ -16,6 +17,8 @@
     font-family: 'Artifika', serif;
     color: white;
     text-align:center;
+
+   
 }
 .q-hero h1{
   text-transform: uppercase;
@@ -92,6 +95,7 @@ span:nth-child(2){
   background-size: 100%;
   background-repeat: no-repeat;
 background-size: cover;
+
   
  
   animation:imgChange 10s infinite;
@@ -142,6 +146,7 @@ background-size: cover;
   flex-direction: column;
   font-family: 'Artifika', serif;
   color: white;
+  overflow-x: hidden;
   
 }
 .buttons{
@@ -301,7 +306,7 @@ height: 23vh;
   
   background-image:url('../src/components/img/abstrait.jpg')  ;
   font-family: 'Artifika', serif;
-  
+  overflow-x: hidden;
 }
 .container1{
   height: 102%;

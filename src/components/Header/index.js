@@ -1,11 +1,15 @@
-import React,{useEffect,useRef } from 'react';
+import React,{useEffect,useRef,useState} from 'react';
 import huitre3 from '../img/huitre3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBagShopping} from '@fortawesome/free-solid-svg-icons';
 import {faUserCircle} from '@fortawesome/free-solid-svg-icons';
-import {Link} from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
 import "../../responsive.css";
 import login from'../Login/index';
+import { UserContext } from '../UserContext';
+import Panier from '../Panier';
+
+
 
 
 
@@ -34,20 +38,35 @@ const hiddenli=()=>{
    
        
 
-    
 
+    const [count, setcount] = useState(0)
+    const [state, setstate] = useState(false)
+const handle=()=>{
+    setstate(true)
+}
     return (
 
 
 
         <div   className="q-hero">
-            
+         
             <h1><img style={{transform:"translate3d(-2px,12px,0)",height:"50px",width:'50px',borderRadius:'50%'}}src={huitre3}/>huître  
             en ligne
+       
+        <Link className='logo' to='/Welcome'><FontAwesomeIcon className='logoStry' style={{cursor:'pointer',color:'white',height:'30px',width:'50px'}} icon={faUserCircle} /></Link>
+        
+       <FontAwesomeIcon style={{cursor:'pointer',color:'white'}} icon={faBagShopping}>}</FontAwesomeIcon>{count}</h1>
+       <button onClick={handle}>Voir votre panier</button>
             
-            <Link className='logo' to='/Welcome'><FontAwesomeIcon className='logoStry' style={{cursor:'pointer',color:'white',height:'30px',width:'50px'}} icon={faUserCircle} /></Link>
-            <Link  to='/panier'><FontAwesomeIcon style={{cursor:'pointer',color:'white'}} icon={faBagShopping}></FontAwesomeIcon></Link></h1>
-            
+           {
+               state && (<div>
+              
+                <Panier setstate={setcount}state={count}/>
+                <Link to='/panier'></Link>
+                </div>
+                )
+           }
+   
        <div onClick={showMenu}  className="menu-burger">
            <span></span>
            <span></span>
@@ -76,6 +95,7 @@ const hiddenli=()=>{
                 <li style={{cursor:'pointer'}}>CONTACT</li>
                </ul>
             </nav>
+           
         </div>
         
       
