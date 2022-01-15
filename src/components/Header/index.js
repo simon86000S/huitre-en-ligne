@@ -7,6 +7,8 @@ import {Link, Redirect} from 'react-router-dom';
 import "../../responsive.css";
 import login from'../Login/index';
 import { UserCount } from '../UserContext';
+import { UserCounter } from '../UserContext';
+
 import Panier from '../Panier';
 
 
@@ -42,6 +44,7 @@ const hiddenli=()=>{
     
     const [state, setstate] = useState(false)
     const {count,setCount} = useContext(UserCount)
+    const {counter,setCounter} = useContext(UserCounter)
 
 const handle=()=>{
     setstate(true)
@@ -56,15 +59,14 @@ const handle=()=>{
             en ligne
        
         <Link className='logo' to='/Welcome'><FontAwesomeIcon className='logoStry' style={{cursor:'pointer',color:'white',height:'30px',width:'50px'}} icon={faUserCircle} /></Link>
-        
-       <FontAwesomeIcon style={{cursor:'pointer',color:'white'}} icon={faBagShopping}>}</FontAwesomeIcon>{count} </h1>
+           <FontAwesomeIcon style={{cursor:'pointer',color:'white'}} icon={faBagShopping}></FontAwesomeIcon>{count+counter}</h1>
        <button style={{color:"white",cursor:'pointer', background:'black',padding:'15px',fontSize:'15px',marginTop:'15px'}} onClick={handle}>Voir votre panier</button>
       
             
            {
                state && (<div>
               
-              <Panier/>
+              <Panier state={state} setState={setstate}/>
                 <Link to='/Panier'></Link>
                 </div>
                 )

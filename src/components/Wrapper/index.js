@@ -12,7 +12,7 @@ import huitrecreusebaie from '../img/huitrecreusebaie.jpg';
 import {Link } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import { UserContext, UserCount } from '../UserContext';
+import { UserContext, UserCount,UserCounter } from '../UserContext';
 
 
 
@@ -22,6 +22,7 @@ import { UserContext, UserCount } from '../UserContext';
 const Wrapper = () => {
  const {price,setPrice}= useContext(UserContext)
 const {count,setCount} = useContext(UserCount)
+const{counter,setCounter}=useContext(UserCounter)
 
 
   useEffect(() => {
@@ -93,14 +94,18 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
     
     <Link  to="/sale"><img data-aos="fade-up"  src={huitrecreusebaie} /></Link>
     <label style={{marginRight:'10px'}} htmlFor='quantité'>Quantité</label>
-    <input onChange={()=>{ setCount(count+1)}} style={{width:'50px'}} type='number'></input>
+    <button value="+"  onClick={()=>{ setCount(count +1)}}style={{width:'50px'}}><i >+</i></button>
+    <button value="-"  onClick={()=>{ setCount(count -1)}}style={{width:'50px'}}><i >-</i></button>
     
     <p >Prix:14 euros la bourriche (huitres plates)</p>
     
     <Link to="/sale"><img style={{marginTop:"150px"}} data-aos="fade-up"   src={huitre7}/></Link>
    <label style={{marginRight:'10px'}} htmlFor='quantité'>Quantité</label>
-    <input onChange={()=>{ setCount(count+1)}} style={{width:'50px'}} type='number'></input>
-    
+    <button value="+"  onClick={()=>{ setCounter(counter +1)}}style={{width:'50px'}}><i >+</i></button>
+    <button value="-"  onClick={()=>{ setCounter(counter-1)}}style={{width:'50px'}}><i >-</i></button>
+
+  
+   
     <p >Prix:12 euros la bourriche (huitres creuses)</p>
 
   
