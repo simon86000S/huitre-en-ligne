@@ -1,13 +1,18 @@
 
-import React from 'react';
+import React,{useContext} from 'react';
+import { UserContext } from '../UserContext';
 
-
-const Panier = ({state,setstate}) => {
+const Panier = () => {
+  const {price,setPrice} = useContext(UserContext)
   
     return (
-        <div style={{position:'absolute',left:'50px',top:"300px",width:'80%',height:'50%',background:'red'}} >
-         <button onClick={()=>setstate(state+1)} >Appuyer</button>
-         <p>,dklfbndjlkdcnld</p>
+        <div style={{position:'absolute',right:"0px",top:"250px",width:'50%',height:'50%',background:'grey'}} >
+        
+         <h1>votre panier</h1>
+
+         
+         
+
        
   
         </div>

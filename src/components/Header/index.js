@@ -1,4 +1,4 @@
-import React,{useEffect,useRef,useState} from 'react';
+import React,{useEffect,useRef,useState,useContext} from 'react';
 import huitre3 from '../img/huitre3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBagShopping} from '@fortawesome/free-solid-svg-icons';
@@ -6,7 +6,7 @@ import {faUserCircle} from '@fortawesome/free-solid-svg-icons';
 import {Link, Redirect} from 'react-router-dom';
 import "../../responsive.css";
 import login from'../Login/index';
-import { UserContext } from '../UserContext';
+import { UserCount } from '../UserContext';
 import Panier from '../Panier';
 
 
@@ -39,8 +39,10 @@ const hiddenli=()=>{
        
 
 
-    const [count, setcount] = useState(0)
+    
     const [state, setstate] = useState(false)
+    const {count,setCount} = useContext(UserCount)
+
 const handle=()=>{
     setstate(true)
 }
@@ -55,14 +57,15 @@ const handle=()=>{
        
         <Link className='logo' to='/Welcome'><FontAwesomeIcon className='logoStry' style={{cursor:'pointer',color:'white',height:'30px',width:'50px'}} icon={faUserCircle} /></Link>
         
-       <FontAwesomeIcon style={{cursor:'pointer',color:'white'}} icon={faBagShopping}>}</FontAwesomeIcon>{count}</h1>
-       <button onClick={handle}>Voir votre panier</button>
+       <FontAwesomeIcon style={{cursor:'pointer',color:'white'}} icon={faBagShopping}>}</FontAwesomeIcon>{count} </h1>
+       <button style={{color:"white",cursor:'pointer', background:'black',padding:'15px',fontSize:'15px',marginTop:'15px'}} onClick={handle}>Voir votre panier</button>
+      
             
            {
                state && (<div>
               
-                <Panier setstate={setcount}state={count}/>
-                <Link to='/panier'></Link>
+              <Panier/>
+                <Link to='/Panier'></Link>
                 </div>
                 )
            }
