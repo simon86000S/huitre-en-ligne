@@ -9,6 +9,7 @@
 .navigation.showMenu{
     display:block;
     width:10%;
+    list-style-type: none;
 }
 .q-hero h1{
     font-size:34px;
