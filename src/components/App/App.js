@@ -9,6 +9,7 @@ import Wrapper from '../Wrapper';
 import Signup from '../Signup';
 import Welcome from '../Welcome';
 import Sale from '../Sale';
+
 import { UserContext, UserCount, UserCounter} from '../UserContext';
 import "../../index.css";
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
@@ -27,7 +28,7 @@ function App() {
    const [count, setCount] = useState(0)
    const [counter, setCounter] = useState(0)
 
-   
+
   return (
 
 
@@ -46,7 +47,7 @@ function App() {
      <Route path='/Signup' component={Signup}/>
      <Route path='/sale' component={Sale}/>
      <Route path='/Panier' component={Panier}/>
-     
+  
     
 
      

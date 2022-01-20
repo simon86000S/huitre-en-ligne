@@ -15,6 +15,7 @@ import Panier from '../Panier';
 
 
 
+
  const Header = () => {
 const showLi = useRef(null)
 const nav = useRef(null)
@@ -43,12 +44,14 @@ const hiddenli=()=>{
 
     
     const [state, setstate] = useState(false)
+    
     const {count,setCount} = useContext(UserCount)
     const {counter,setCounter} = useContext(UserCounter)
 
 const handle=()=>{
     setstate(true)
 }
+
     return (
 
 
@@ -82,21 +85,18 @@ const handle=()=>{
                 <ul  className="nav"  >
                 <h1   className="title-nav">Menu</h1>
                
-                <li style={{cursor:'pointer'}}  className='first-li'>NOS HUITRES</li>
-               
+<li style={{cursor:'pointer'}}  className='first-li'>NOS HUITRES</li>
+              
                 <div onClick={hiddenMenu} className="burger">
                     <span></span>
                     <span></span>
                     </div>
-                <ul  className="nav-Menu">
+               
                    
                    
-                </ul>
+               
                 <li style={{cursor:'pointer'}}>NOS PRODUCTEURS</li>
-                <li style={{cursor:'pointer'}}>BIO </li>
-                <li style={{cursor:'pointer'}}>REPAS DE FETE</li>
-                <li style={{cursor:'pointer'}} >QUALITE</li>
-                <li style={{cursor:'pointer'}}>LIVRAISON</li>
+               
                 <li style={{cursor:'pointer'}}>CONTACT</li>
                </ul>
             </nav>

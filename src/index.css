@@ -505,11 +505,11 @@ text-align: center;
   display:flex;
     justify-content: space-between;
   left:0;
-  top: 208px;
+  top: 242px;
   background-color:#0b182a;
   width:60%;
-  height:100%;
-  transform: translate3d(-100%,-9px,0);
+  height:80%;
+  transform: translate3d(-100%,-29px,0);
   transition:transform 500ms ease-in;
 
 
