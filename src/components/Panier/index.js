@@ -18,6 +18,9 @@ let resulat=count*Number(14)
 let resulat1=counter*Number(12)
 let resultatTotal=resulat+resulat1
 
+
+
+
     return (
         <div style={{position:'fixed',zIndex:'1000',right:"0px",top:"250px",width:'50%',height:'50%',background:'grey'}} >
         
@@ -57,7 +60,7 @@ let resultatTotal=resulat+resulat1
  </div> 
  <h2>Total:  {resultatTotal}  euros</h2>
  <button onClick={handleChange}>Appuyer</button>
-
+<button >reset</button>
  
   
         </div>

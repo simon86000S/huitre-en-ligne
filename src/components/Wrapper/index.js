@@ -32,9 +32,9 @@ const [stateButton, setstateButton] = useState(true)
   
 }, [])
  useEffect(() => {
-   if(counter>0 || count>0){
+   if(counter+count>0 || count+counter>0){
      setstateButton(true)
-   }else if (counter===0 || count===0){
+   }else if (counter+count===0 ||counter+count<0 && count+counter===0 || count+counter<0){
     setstateButton(false)
    }
  }, [counter,count])
