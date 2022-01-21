@@ -38,7 +38,7 @@ const user= await createUserWithEmailAndPassword(
     
      }catch(error){
     console.log(error.message)
-    alert("6 charactere minimum");
+    alert(" mot de passe invalide");
     
     
      }
