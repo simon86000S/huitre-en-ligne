@@ -69,6 +69,7 @@ body{
     width:50%;
     text-align: center;
     font-size: 18px;
+    
 }
 .slide h1{
     
@@ -130,6 +131,9 @@ body{
     }
     .wrapper-oyster{
         height:100vh;
+      }
+      .containers .container1{
+          margin:0;
       }
     
 }
