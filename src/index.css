@@ -452,6 +452,7 @@ text-align: center;
   .Form{
     margin-top:20px;
   }
+
   .sale-oyster{
     display: block;
     flex-direction: row;
@@ -476,6 +477,7 @@ text-align: center;
     margin-top: 25px;
     width:34%;
     border-radius: 50%;
+    
   
    
     
@@ -484,7 +486,7 @@ text-align: center;
   .wrapper-oyster p{
     color:#200505;
      font-size: 17px;
-     margin-left: 55px;
+     margin-left: 71px;
     
   }
 .sale{

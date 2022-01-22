@@ -119,5 +119,17 @@ body{
     margin:0;
 
 }
+
+
 }
 
+@media (max-width: 700px){
+    .sale-oyster img{
+        margin-left: 150px;
+    
+    }
+    .wrapper-oyster{
+        height:100vh;
+      }
+    
+}

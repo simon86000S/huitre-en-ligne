@@ -35,11 +35,13 @@ function App() {
 
       <Router>
         
+        
        <UserCount.Provider value={{count,setCount}}>
        
 <UserContext.Provider value={{price,setPrice}}>
 <UserCounter.Provider value={{counter,setCounter}}>
       <Header></Header>
+ 
      <Switch>
      
       <Route path='/Welcome' component={Welcome}></Route>
@@ -47,6 +49,8 @@ function App() {
      <Route path='/Signup' component={Signup}/>
      <Route path='/sale' component={Sale}/>
      <Route path='/Panier' component={Panier}/>
+   
+     
   
     
 

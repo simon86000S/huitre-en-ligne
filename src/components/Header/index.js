@@ -3,7 +3,7 @@ import huitre3 from '../img/huitre3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBagShopping} from '@fortawesome/free-solid-svg-icons';
 import {faUserCircle} from '@fortawesome/free-solid-svg-icons';
-import {Link, Redirect} from 'react-router-dom';
+import {Link, NavLink, Redirect} from 'react-router-dom';
 import "../../responsive.css";
 import login from'../Login/index';
 import { UserCount } from '../UserContext';

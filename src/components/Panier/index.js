@@ -22,15 +22,14 @@ let resultatTotal=resulat+resulat1
 
 
     return (
-        <div style={{position:'fixed',zIndex:'1000',right:"0px",top:"250px",width:'50%',height:'50%',background:'grey'}} >
+        <div style={{position:'fixed',zIndex:'100',opacity:"0.8",right:"0px",top:"250px",width:'50%',height:'50%',background:'grey'}} >
         
          <h1>votre panier</h1>
          <div style={{display:"flex",justifyContent:"space-around",marginTop:"35px"}}>
          <div className='oyester plate'> 
          <ul style={{listStyleType:"none",textDecoration:"none"}}>
+          
            <li><h4>Quantité</h4></li>
-         
-
            <li> <p>{count }</p>
            <li> <h4>Prix</h4></li>
 
@@ -60,7 +59,7 @@ let resultatTotal=resulat+resulat1
  </div> 
  <h2>Total:  {resultatTotal}  euros</h2>
  <button onClick={handleChange}>Appuyer</button>
-<button >reset</button>
+
  
   
         </div>
