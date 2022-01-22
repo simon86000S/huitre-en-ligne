@@ -1,22 +1,33 @@
 
-import React,{useContext,useRef} from 'react';
-import { UserContext, UserCountSecond } from '../UserContext';
+import React,{useContext,useRef,useEffect} from 'react';
+import { Userbutton, UserContext, UserCountSecond } from '../UserContext';
 import { UserCount } from '../UserContext';
 import{UserCounter} from '../UserContext'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+
 
 const Panier = ({state,setState}) => {
   const {price,setPrice} = useContext(UserContext)
+ const{stateButton, setstateButton}=useContext(Userbutton)
 const {count,setCount} = useContext(UserCount)
 const {counter,setCounter} = useContext(UserCounter)
 
  const handleChange=()=>{
   setState(false)
 }
+let resultat=count*parseInt(Number(14));
 
-let resulat=count*Number(14)
-let resulat1=counter*Number(12)
-let resultatTotal=resulat+resulat1
+let resultat1=counter*parseInt(Number(15)) ;
+let resultatTotal=count*parseInt(Number(14)) +parseInt(counter*Number(15)) ;
+
+useEffect(() => {
+ 
+
+ if(resultat<0 && resultat1<0){
+   setCount(0)
+   setCounter(0)
+ }
+}, [resultat,resultat1]);
 
 
 
@@ -28,7 +39,7 @@ let resultatTotal=resulat+resulat1
          <div style={{display:"flex",justifyContent:"space-around",marginTop:"35px"}}>
          <div className='oyester plate'> 
          <ul style={{listStyleType:"none",textDecoration:"none"}}>
-          
+           
            <li><h4>Quantité</h4></li>
            <li> <p>{count }</p>
            <li> <h4>Prix</h4></li>
@@ -36,7 +47,7 @@ let resultatTotal=resulat+resulat1
            <p>{price.Firstprice}euros</p></li>
            <li> <h4>Total</h4></li>
 
-           <p>{resulat} euros</p>
+           <p>{resultat} euros</p>
          </ul>
         
           
@@ -50,17 +61,17 @@ let resultatTotal=resulat+resulat1
      <li> <h4>Prix</h4></li>
      <li> <p>{price.secondPrice} euros</p> </li>
      <li><h4>Total</h4></li>
-     <li>{resulat1}</li>
+     <li>{resultat1}</li>
           </ul>
       
-         
+    
     </div>
 
  </div> 
  <h2>Total:  {resultatTotal}  euros</h2>
  <button onClick={handleChange}>Appuyer</button>
 
- 
+
   
         </div>
     )

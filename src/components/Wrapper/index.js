@@ -12,7 +12,7 @@ import huitrecreusebaie from '../img/huitrecreusebaie.jpg';
 import {Link } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import { UserContext, UserCount,UserCounter } from '../UserContext';
+import { UserContext, UserCount,UserCounter,Userbutton } from '../UserContext';
 
 
 
@@ -23,7 +23,8 @@ const Wrapper = () => {
  const {price,setPrice}= useContext(UserContext)
 const {count,setCount} = useContext(UserCount)
 const{counter,setCounter}=useContext(UserCounter)
-const [stateButton, setstateButton] = useState(true)
+const{stateButton, setstateButton}=useContext(Userbutton)
+
   useEffect(() => {
     Aos.init({
         duration:2000
@@ -32,15 +33,17 @@ const [stateButton, setstateButton] = useState(true)
   
 }, [])
  useEffect(() => {
-   if(counter+count>0 || count+counter>0){
+   if(counter+count>0 && count+counter>0){
      setstateButton(true)
-   }else if (counter+count===0 ||counter+count<0 && count+counter===0 || count+counter<0){
+   }else if (count<=0 && counter<=0 || count+counter<=0  ){
     setstateButton(false)
+    setCount(0)
+    setCounter(0)
    }
  }, [counter,count])
 
 
-
+ 
   
     return (
         
@@ -107,7 +110,7 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
    
     
 {
-  stateButton ?  <button value="-"  onClick={()=>{ setCount(count -1)}}style={{width:'50px'}}><i >-</i></button>:
+  stateButton ?  <button value="-" onClick={()=>{ setCount(count -1)}}style={{width:'50px'}}><i >-</i></button>:
   <button disabled value="-"  onClick={()=>{ setCount(count -1)}}style={{width:'50px'}}><i >-</i></button>
 }
  
@@ -120,7 +123,7 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
   
 
 {
-  stateButton ? <button  value="-"  onClick={()=>{ setCounter(counter-1)}}style={{width:'50px'}}><i >-</i></button>:
+  stateButton ? <button   value="-"  onClick={()=>{ setCounter(counter-1)}}style={{width:'50px'}}><i >-</i></button>:
   <button disabled  value="-"  onClick={()=>{ setCounter(counter-1)}}style={{width:'50px'}}><i >-</i></button>
 }
  
