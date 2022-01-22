@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/huitre-en-ligne/static/css/main.3040e618.chunk.css",
+    "main.css": "/huitre-en-ligne/static/css/main.dc6080b8.chunk.css",
     "main.js": "/huitre-en-ligne/static/js/main.087fc8d9.chunk.js",
     "main.js.map": "/huitre-en-ligne/static/js/main.087fc8d9.chunk.js.map",
     "runtime-main.js": "/huitre-en-ligne/static/js/runtime-main.eb6efbed.js",
@@ -12,7 +12,7 @@
     "static/js/3.64c2b15f.chunk.js.map": "/huitre-en-ligne/static/js/3.64c2b15f.chunk.js.map",
     "index.html": "/huitre-en-ligne/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/huitre-en-ligne/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.3040e618.chunk.css.map": "/huitre-en-ligne/static/css/main.3040e618.chunk.css.map",
+    "static/css/main.dc6080b8.chunk.css.map": "/huitre-en-ligne/static/css/main.dc6080b8.chunk.css.map",
     "static/js/2.2d9847f6.chunk.js.LICENSE.txt": "/huitre-en-ligne/static/js/2.2d9847f6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/huitre-en-ligne/static/media/photohuitre.bf6a1d6a.jpg",
     "static/media/cadeaux.5e6391da.jpg": "/huitre-en-ligne/static/media/cadeaux.5e6391da.jpg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.eb6efbed.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.2d9847f6.chunk.js",
-    "static/css/main.3040e618.chunk.css",
+    "static/css/main.dc6080b8.chunk.css",
     "static/js/main.087fc8d9.chunk.js"
   ]
 }
