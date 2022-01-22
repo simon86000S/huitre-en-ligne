@@ -111,6 +111,7 @@ body{
     text-align:center
    
 }
+
 .containers .container3 p{
     color:black;
     text-align: center;
@@ -126,8 +127,11 @@ body{
 
 @media (max-width: 700px){
     .sale-oyster img{
-        margin-left: 150px;
+        margin-left:110px;
     
+    }
+    .title-oyester{
+        font-size: 50px;
     }
     .wrapper-oyster{
         height:100vh;
