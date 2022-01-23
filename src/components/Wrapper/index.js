@@ -102,7 +102,7 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
  <div className="sale-oyster">
    <h1 className='title-oyester'>Nos ventes</h1>
    <h2>huitre baie de quiberon</h2>
-  <div style={{transform:'translateX(-80px)'}} className="wrapper-oyster">
+  <div style={{transform:'translateX(-33px)'}} className="wrapper-oyster">
     
     <Link  to="/sale"><img data-aos="fade-up"  src={huitrecreusebaie} /></Link>
     <label style={{marginRight:'10px',display:'block',fontSize:'20px'}} htmlFor='quantité'>Quantité</label>
