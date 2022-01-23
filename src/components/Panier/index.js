@@ -47,7 +47,7 @@ useEffect(() => {
            <p>{price.Firstprice}euros</p></li>
            <li> <h4>Total</h4></li>
 
-           <p>{resultat} euros</p>
+           <li>{resultat} euros</li>
          </ul>
         
           
@@ -61,7 +61,7 @@ useEffect(() => {
      <li> <h4>Prix</h4></li>
      <li> <p>{price.secondPrice} euros</p> </li>
      <li><h4>Total</h4></li>
-     <li>{resultat1}</li>
+     <li>{resultat1}euros</li>
           </ul>
       
     
