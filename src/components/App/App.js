@@ -52,10 +52,6 @@ function App() {
      <Route path='/Panier' component={Panier}/>
    
      
-  
-    
-
-     
      
     
      </Switch>

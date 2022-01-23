@@ -1,7 +1,7 @@
 
 import { useState,useEffect} from 'react'; 
 import {Link} from 'react-router-dom';
-import {createUserWithEmailAndPassword} from"firebase/auth";
+import {createUserWithEmailAndPassword, signInWithEmailAndPassword} from"firebase/auth";
 import {auth} from '../firebase';
 
 
@@ -12,34 +12,39 @@ import {auth} from '../firebase';
    const[registerEmail,setRegisterEmail]=useState("")
    const[error,setError]=useState("")
   /*gestion d'erreur*/ 
-const errorMsg=error!=="" &&<span>{error.message}</span>
+
+const errorMsg=error==="" &&<span>{error.message}</span>
 useEffect(() => {
    
-  if(registerPassword!==""){
+  if(registerPassword!=="" && registerEmail!==""){
      setBtn(true)
  }else{
      setBtn(false)
      
  }
    
-}, [registerPassword])
+}, [registerPassword,registerEmail])
     const register=async()=>{
      
         try{
 const user= await createUserWithEmailAndPassword(
     auth,
    registerEmail,
-    registerPassword
-    );
-    console.log(user)
-    alert("success")
-    setRegisterPassword("")
+    registerPassword,
     
+    );
+
+   
+        
+    alert("success:vous etes désormais incrit")
+    setRegisterPassword("")
+    setRegisterEmail("")
+
     
      }catch(error){
-    console.log(error.message)
+
     alert(" mot de passe invalide");
-    
+        
     
      }
     };
@@ -58,22 +63,26 @@ onChange={(event)=>{setRegisterEmail(event.target.value)}}
    placeholder='Email'></input>
 
 </div>
+
 <div  className="inputBox">
 <label>Entrer votre mot de passe</label> 
 <input 
 onChange={(event)=>{setRegisterPassword(event.target.value)}}
 type="password" placeholder='votre mot de passe'></input>
- {errorMsg}
+
+<h1> {errorMsg}</h1>
+<button onClick={register} style={{marginTop:'25px',border:"none",opacity:"0.4"}}>mot de passe oublié?</button>
 
 </div>
 
 </form>
 
-{btn ?( <button  onClick={register} className="btn-acceuil" >Inscription</button>):
+{
+btn ?( <button  onClick={register} className="btn-acceuil" >Inscription</button>):
 (<button style={{color:'black'}}disabled onClick={register} className="btn-acceuil" >Inscription</button>)
 
     }
-<Link className="btn-acceuil" to="/Landing">Revenir page d'accueuil</Link>
+<Link className="btn-acceuil" to="/Landing">Revenir page d'accueil</Link>
          </div>
         
      )

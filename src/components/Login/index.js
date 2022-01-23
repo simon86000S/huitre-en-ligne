@@ -19,8 +19,8 @@ const user= await signInWithEmailAndPassword(
    loginEmail,
     loginPassword
     );
-    console.log(user)
-    alert("success")
+    
+    alert("success: vous etes connecté")
     setLoginEmail('')
     
     
@@ -55,10 +55,10 @@ type="password" placeholder='votre mot de passe'></input>
 </div>
 
 </form>
-<button style={{marginTop:'25px',border:"none",opacity:"0.4"}}>mot de passe oublié?</button>
+
 <button  onClick={register} className="btn-acceuil" >Connexion</button>
 <Link className="btn-acceuil" to="/Signup">Vous voulez vous incrire? incrivez-vous</Link>
-<Link className="btn-acceuil" to="/Landing">Revenir page d'accueuil</Link>
+<Link className="btn-acceuil" to="/Landing">Revenir page d'accueil</Link>
 
 
          </div>

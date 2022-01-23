@@ -69,8 +69,8 @@ useEffect(() => {
 
  </div> 
  <h2>Total:  {resultatTotal}  euros</h2>
- <button onClick={handleChange}>Appuyer</button>
-
+ <button style={{display:"flex",justifyContent:"flex-end"}} onClick={handleChange}>fermer le panier</button>
+<input type="submit" value='envoyer votre commande'></input>
 
   
         </div>
