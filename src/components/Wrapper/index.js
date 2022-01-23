@@ -33,9 +33,9 @@ const{stateButton, setstateButton}=useContext(Userbutton)
   
 }, [])
  useEffect(() => {
-   if(counter+count>0 && count+counter>0){
+   if(counter>=0 && count>=0){
      setstateButton(true)
-   }else if (count<=0 && counter<=0 || count+counter<=0  ){
+   }else if (count<=0 || counter<=0 || count+counter<=0  ){
     setstateButton(false)
     setCount(0)
     setCounter(0)

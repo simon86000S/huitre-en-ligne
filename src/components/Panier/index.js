@@ -23,11 +23,11 @@ let resultatTotal=count*parseInt(Number(14)) +parseInt(counter*Number(15)) ;
 useEffect(() => {
  
 
- if(resultat<0 && resultat1<0){
+ if(resultat<0 && resultat1<0||  count<=0 && counter<=0){
    setCount(0)
    setCounter(0)
  }
-}, [resultat,resultat1]);
+}, [resultat,resultat1,count,counter]);
 
 
 
