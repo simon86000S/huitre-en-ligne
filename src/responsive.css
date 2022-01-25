@@ -159,6 +159,10 @@ body{
     .Menu-choice{
        left:0;
     }
+    
+}
+    @media (max-width: 420px){
     .q-hero button{
-transform: translate3d(0,-11px,0);    }
+transform: translate3d(0,-16px,0);   
+ }
 }
