@@ -150,8 +150,9 @@ body{
  
    .btn-choice{
    
-    top: 44px;
+    top: 15px;
     left: 152px;
+    margin-top:17px;
     
    }
 }
@@ -165,4 +166,5 @@ body{
     .q-hero button{
 transform: translate3d(0,-16px,0);   
  }
+
 }
