@@ -33,9 +33,12 @@ useEffect(() => {
 
 
     return (
-        <div style={{position:'fixed',zIndex:'100',opacity:"0.8",right:"0px",top:"250px",width:'50%',height:'50%',background:'grey'}} >
+        <div className='Menu-choice' style={{position:'fixed',postion:"relative",zIndex:'100',opacity:"0.8",right:"15px",top:"250px",width:"50%",height:'61%',background:'grey'}} >
         
-         <h1>votre panier</h1>
+         <div style={{display:'flex',justifyContent:"space-around",alignContent:"center"}}>
+           <h1>votre panier</h1> 
+         <button style={{padding:"15px"}} className='btn-choice' onClick={handleChange}>X</button>
+         </div>
          <div style={{display:"flex",justifyContent:"space-around",marginTop:"35px"}}>
          <div className='oyester plate'> 
          <ul style={{listStyleType:"none",textDecoration:"none"}}>
@@ -69,8 +72,10 @@ useEffect(() => {
 
  </div> 
  <h2>Total:  {resultatTotal}  euros</h2>
- <button style={{display:"flex",justifyContent:"flex-end"}} onClick={handleChange}>fermer le panier</button>
-<input type="submit" value='envoyer votre commande'></input>
+ <div className='btnId'>
+
+<input style={{transform:'translate3d(75px, 33px, 0px)'}} type="submit" value='envoyer votre commande'></input>
+ </div>
 
   
         </div>
