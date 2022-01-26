@@ -29,12 +29,13 @@ font-size:11px;
 }
 .burger{
   cursor:pointer;
+  padding:30px;
 }
 .menu-burger{
   position: absolute;
-  transform: translate3d(-13px, 80px, 10px);
+  transform: translate3d(-13px, 41px, 10px);
   cursor: pointer;
-  padding:16px;
+  padding:30px;
   
      
 }
@@ -512,8 +513,8 @@ text-align: center;
   background-color:#0b182a;
   width:60%;
   height:80%;
-  transform: translate3d(-100%,-29px,0);
-  transition:transform 500ms ease-in;
+  transform: translate3d(-1000%,-29px,0);
+  transition:transform .7s ease-in-out;
 
 
 }
@@ -521,11 +522,11 @@ text-align: center;
 color:red;
 } 
 .hiddenMenu{
-  transform: translate3d(-100%,-9px,0);
-  -webkit-transform: translate3d(-100%,-9px,0);
-  -moz-transform: translate3d(-100%,-9px,0);
-  -ms-transform: translate3d(-100%,-9px,0);
-  -o-transform: translate3d(-100%,-9px,0);
+  transform: translate3d(-1000%,-9px,0);
+  -webkit-transform: translate3d(-1000%,-9px,0);
+  -moz-transform: translate3d(-1000%,-9px,0);
+  -ms-transform: translate3d(-1000%,-9px,0);
+  -o-transform: translate3d(-1000%,-9px,0);
 }
 
 .navigation h1{
@@ -585,11 +586,11 @@ padding:20px;
 /*show-Menu*/
 
 .showMenu{
-  transform: translate3d(0,-9px,0);
-  -webkit-transform: translate3d(0,-9px,0);
-  -moz-transform: translate3d(0,-9px,0);
-  -ms-transform: translate3d(0,-9px,0);
-  -o-transform: translate3d(0,-9px,0);
+  transform: translate3d(0,-36px,0);
+  -webkit-transform: translate3d(0,-36px,0);
+  -moz-transform: translate3d(0,-36px,0);
+  -ms-transform: translate3d(0,-36px,0);
+  -o-transform: translate3d(0,-36px,0);
 }
  
   .burger span:nth-child(1) {

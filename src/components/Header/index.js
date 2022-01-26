@@ -61,13 +61,18 @@ const handle=()=>{
             <h1><img style={{transform:"translate3d(-2px,12px,0)",height:"50px",width:'50px',borderRadius:'50%'}}src={huitre3}/>huître  
             en ligne
             <br></br>
+            <div onClick={showMenu}  className="menu-burger">
+           <span></span>
+           <span></span>
+           <span></span>
+        </div>
         <Link className='logo' to='/Welcome'>
             <FontAwesomeIcon className='logoStry' style={{cursor:'pointer',color:'white',height:'30px',width:'50px'}} 
         icon={faUserCircle} /></Link>
         <FontAwesomeIcon style={{cursor:'pointer',color:'white'}}
         icon={faBagShopping}></FontAwesomeIcon>{count+counter}
            </h1>
-           
+      
        <button style={{color:"white",cursor:'pointer', background:'black',padding:'15px',fontSize:'15px',marginTop:'15px'}} onClick={handle}>Voir votre panier</button>
        
             
@@ -80,22 +85,19 @@ const handle=()=>{
                 )
            }
    
-       <div onClick={showMenu}  className="menu-burger">
-           <span></span>
-           <span></span>
-           <span></span>
-        </div>
+     
          
         <nav ref={nav} class="navigation">
                 <ul  className="nav"  >
                 <h1   className="title-nav">Menu</h1>
-               
-<li style={{cursor:'pointer'}}  className='first-li'>NOS HUITRES</li>
-              
                 <div onClick={hiddenMenu} className="burger">
                     <span></span>
                     <span></span>
                     </div>
+               
+               
+<li style={{cursor:'pointer'}}  className='first-li'>NOS HUITRES</li>
+              
                
                    
                    

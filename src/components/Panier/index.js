@@ -37,7 +37,7 @@ useEffect(() => {
         
          <div style={{display:'flex',justifyContent:"space-around",alignContent:"center"}}>
            <h1>votre panier</h1> 
-         <button style={{padding:"15px"}} className='btn-choice' onClick={handleChange}>X</button>
+         <button style={{padding:"15px",cursor:'pointer'}} className='btn-choice' onClick={handleChange}>X</button>
          </div>
          <div style={{display:"flex",justifyContent:"space-around",marginTop:"35px"}}>
          <div className='oyester plate'> 
