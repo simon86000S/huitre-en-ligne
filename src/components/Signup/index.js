@@ -1,7 +1,7 @@
 
 import { useState,useEffect} from 'react'; 
 import {Link} from 'react-router-dom';
-import {createUserWithEmailAndPassword, signInWithEmailAndPassword} from"firebase/auth";
+import {createUserWithEmailAndPassword,sendPasswordResetEmail} from"firebase/auth";
 import {auth} from '../firebase';
 
 
@@ -10,10 +10,11 @@ import {auth} from '../firebase';
     const[btn,setBtn]=useState(false)
     const[registerPassword,setRegisterPassword]=useState("")
    const[registerEmail,setRegisterEmail]=useState("")
+   const[forgetPassword,setforgetPassword]=useState("")
    const[error,setError]=useState("")
   /*gestion d'erreur*/ 
 
-const errorMsg=error==="" &&<span>{error.message}</span>
+const errorMsg=error===""&&<span>{error.message}</span>
 useEffect(() => {
    
   if(registerPassword!=="" && registerEmail!==""){
@@ -27,6 +28,7 @@ useEffect(() => {
     const register=async()=>{
      
         try{
+        
 const user= await createUserWithEmailAndPassword(
     auth,
    registerEmail,
@@ -43,8 +45,9 @@ const user= await createUserWithEmailAndPassword(
     
      }catch(error){
 
-    alert(" mot de passe invalide");
-        
+    if(error.code=== 'auth/invalid-email'){
+        alert("format invalide")
+    }
     
      }
     };

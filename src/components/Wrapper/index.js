@@ -9,7 +9,7 @@ import photo5 from '../img/photo5.jpg';
 import photo6 from '../img/photo6.jpg';
 import huitre7 from '../img/huitre7.jpg'
 import huitrecreusebaie from '../img/huitrecreusebaie.jpg';
-import {Link } from 'react-router-dom';
+import {Link, NavLink } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { UserContext, UserCount,UserCounter,Userbutton } from '../UserContext';
@@ -63,7 +63,7 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
                </p>
            </div>
            
-        <div  data-aos="fade-left" className="container2"><img style={{width:'50%',height:"100%",margin:"0"}} src={baie}></img>
+        <div  data-aos="fade-left" className="container2"><img style={{width:'50%',height:"150%",margin:"0"}} src={baie}></img>
         </div>
         <div  data-aos="fade-bottom" className="container3">
             <h1  data-aos="fade-bottom"><i className='first-letter'>Huitre de la</i> baie de <i className="last-letter">Quiberon</i></h1>
@@ -105,7 +105,8 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
   <div style={{transform:'translateX(-33px)'}} className="wrapper-oyster">
     
     <Link  to="/sale"><img data-aos="fade-up"  src={huitrecreusebaie} /></Link>
-    <label style={{marginRight:'10px',display:'block',fontSize:'20px'}} htmlFor='quantité'>Quantité</label>
+    <label style={{marginRight:'10px',display:'block',fontSize:'30px'}} htmlFor='quantité'>Quantité</label>
+    
     <button value="+"  onClick={()=>{ setCount(count +1)}}style={{width:'50px'}}><i >+</i></button>
    
     
@@ -114,10 +115,11 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
   <button disabled value="-"  onClick={()=>{ setCount(count -1)}}style={{width:'50px'}}><i >-</i></button>
 }
  
-    <p >Prix: 14 euros la bourriche (huitres plates)</p>
+    <p >Prix: 14 euros la bourriche (huitres plates)</p> 
+    <h2 style={{margin:"25px"}}>nombre de bourriche:{count}</h2>
     
-    <Link to="/sale"><img style={{marginTop:"150px"}} data-aos="fade-up"   src={huitre7}/></Link>
-   <label style={{marginRight:'10px',display: 'block',fontSize:'20px'}} htmlFor='quantité'>Quantité</label>
+    <img style={{marginTop:"150px"}} data-aos="fade-up"   src={huitre7}/>
+   <label style={{marginRight:'10px',display: 'block',fontSize:'30px'}} htmlFor='quantité'>Quantité</label>
 
    <button value="+"  onClick={()=>{ setCounter(counter +1)}}style={{width:'50px'}}><i >+</i></button>
   
@@ -129,9 +131,9 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
  
    
    
-    <p >Prix: 12 euros la bourriche (huitres creuses)</p>
+    <p >Prix: 12 euros la bourriche (huitres creuses)</p><h2 style={{margin:"25px"}}>nombre de bourriche:{counter}</h2>
 
-  
+ 
 
   </div>
  </div>
