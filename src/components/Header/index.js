@@ -66,8 +66,8 @@ const handle=()=>{
            <span></span>
            <span></span>
         </div>
-        <Link className='logo' to='/Welcome'>
-            <FontAwesomeIcon className='logoStry' style={{cursor:'pointer',color:'white',height:'30px',width:'50px'}} 
+        <Link style={{marginRight:"15px"}}className='logo' to='/Welcome'>
+            <FontAwesomeIcon className='logoStry' style={{cursor:'pointer',color:'white'}} 
         icon={faUserCircle} /></Link>
         <FontAwesomeIcon style={{cursor:'pointer',color:'white'}}
         icon={faBagShopping}></FontAwesomeIcon>{count+counter}

@@ -1,6 +1,6 @@
 
 import React,{useContext,useRef,useEffect} from 'react';
-import { Userbutton, UserContext, UserCountSecond } from '../UserContext';
+import {  UserContext} from '../UserContext';
 import { UserCount } from '../UserContext';
 import{UserCounter} from '../UserContext'
 import {Link} from 'react-router-dom';
@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 
 const Panier = ({state,setState}) => {
   const {price,setPrice} = useContext(UserContext)
- const{stateButton, setstateButton}=useContext(Userbutton)
+
 const {count,setCount} = useContext(UserCount)
 const {counter,setCounter} = useContext(UserCounter)
 
