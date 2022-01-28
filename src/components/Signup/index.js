@@ -25,6 +25,7 @@ useEffect(() => {
  }
    
 }, [registerPassword,registerEmail])
+
     const register=async()=>{
      
         try{
