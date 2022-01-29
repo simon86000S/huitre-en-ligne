@@ -74,7 +74,7 @@ useEffect(() => {
  <h2>Total:  {resultatTotal}  euros</h2>
  <div className='btnId'>
 
-<input style={{transform:'translate3d(75px, 33px, 0px)',backgroundColor:'#1a528b',color:'white',padding:"15px"}} type="submit" value='Envoyer votre commande'></input>
+<input style={{transform:'translate3d(87px, 33px, 0px)',backgroundColor:'#1a528b',color:'white',padding:"10px"}} type="submit" value='Envoyer votre commande'></input>
  </div>
 
   

@@ -116,7 +116,7 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
 }
  
     <p >Prix: 14 euros la bourriche (huitres plates)</p> 
-    <h2 style={{margin:"25px"}}>nombre de bourriche:{count}</h2>
+    <h2 style={{margin:"25px"}}>Nombre de bourriche:  {count}</h2>
     
     <img style={{marginTop:"150px"}} data-aos="fade-up"   src={huitre7}/>
    <label style={{marginRight:'10px',display: 'block',fontSize:'30px'}} htmlFor='quantité'>Quantité</label>
@@ -131,7 +131,7 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
  
    
    
-    <p >Prix: 12 euros la bourriche (huitres creuses)</p><h2 style={{margin:"25px"}}>nombre de bourriche:{counter}</h2>
+    <p >Prix: 12 euros la bourriche (huitres creuses)</p><h2 style={{margin:"25px"}}>Nombre de bourriche:  {counter}</h2>
 
  
 

@@ -1,7 +1,7 @@
 
 import { useState,useEffect} from 'react'; 
 import {Link} from 'react-router-dom';
-import {createUserWithEmailAndPassword,sendPasswordResetEmail} from"firebase/auth";
+import {createUserWithEmailAndPassword} from"firebase/auth";
 import {auth} from '../firebase';
 
 
