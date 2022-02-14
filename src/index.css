@@ -673,3 +673,24 @@ input{
   width:50%;
   
 }
+
+/*Containers-Oyester*/
+.Containers-oyester{
+  display:flex;
+  justify-content: space-around;
+  
+  height:100vh;
+  width:100%;
+  background-color: #0c6ca39c;
+  box-shadow: 35px 22px 53px 40px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 35px 22px 53px 40px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 35px 22px 53px 40px rgba(0,0,0,0.75) inset;
+}
+
+.Containers-oyester img {
+  width:250px;
+  height: 500px;;
+  
+}
+.Containers-oyester h1{text-align: center;
+color:white}

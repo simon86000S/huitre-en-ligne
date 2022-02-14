@@ -8,8 +8,7 @@ import Aside from'../Aside';
 import Wrapper from '../Wrapper';
 import Signup from '../Signup';
 import Welcome from '../Welcome';
-
-
+import Oyester from '../Oyester';
 import { UserContext, UserCount, UserCounter,Userbutton} from '../UserContext';
 import "../../index.css";
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
@@ -42,13 +41,14 @@ function App() {
 <UserContext.Provider value={{price,setPrice}}>
 <UserCounter.Provider value={{counter,setCounter}}>
       <Header></Header>
+
  
      <Switch>
      
       <Route path='/Welcome' component={Welcome}></Route>
      <Route  path="/login"component={Login}/>
      <Route path='/Signup' component={Signup}/>
-     
+     <Route path='/Oyester' component={Oyester}></Route>
      <Route path='/Panier' component={Panier}/>
    
      

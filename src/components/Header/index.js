@@ -8,8 +8,9 @@ import "../../responsive.css";
 import login from'../Login/index';
 import { UserCount } from '../UserContext';
 import { UserCounter } from '../UserContext';
-
+import Oyester from '../Oyester';
 import Panier from '../Panier';
+
 
 
 
@@ -95,8 +96,9 @@ const handle=()=>{
                     <span></span>
                     </div>
                
-               
-<li style={{cursor:'pointer'}}  className='first-li'>NOS HUITRES</li>
+                    <Link to ='/Oyester'> <li style={{cursor:'pointer'}}  className='first-li'>NOS HUITRES</li>
+                           </Link>
+
               
                
                    
