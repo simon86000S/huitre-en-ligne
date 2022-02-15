@@ -35,17 +35,17 @@ import { faRotate } from '@fortawesome/free-solid-svg-icons';
   return (
     
       
-        <div  className="sale-oyster">
+        <div className="sale-oyster">
        
-   <Link style={{fontSize:'30px',display:'flex',alignItems:'center',textDecoration:'none',color:'black'}} to="/"><img style={{width:"100px",transform:'rotate(180deg)'}} src={chevron2}></img>Revenir à la page d'acceuil</Link><h1 style={{marginRight:'50px'}}  className='title-oyester'>Nos ventes</h1>
+   <Link style={{fontSize:'30px',display:'flex',alignItems:'center',textDecoration:'none',color:'black',justifyContent:'center'}} to="/"><img style={{width:"100px",transform:'rotate(180deg)'}} src={chevron2}></img>Revenir à la page d'acceuil</Link><h1 style={{marginRight:'50px'}}  className='title-oyester'>Nos ventes</h1>
    
    <h2>huitre baie de quiberon</h2>
    
-  <div style={{transform:'translateX(-33px)'}} className="wrapper-oyster">
+  <div style={{transform:'translateX(-33px)'}} className="wrapper-oyster1">
   
     
     <Link  to="/sale"><img data-aos="fade-up"  src={huitrecreusebaie} /></Link>
-    <label style={{marginRight:'10px',display:'block',fontSize:'30px'}} htmlFor='quantité'>Quantité</label>
+    <label style={{marginRight:'10px',display:'block',fontSize:'34px'}} htmlFor='quantité'>Quantité</label>
     
     <button value="+"  onClick={()=>{ setCount(count +1)}}style={{width:'50px'}}><i >+</i></button>
    
@@ -59,7 +59,7 @@ import { faRotate } from '@fortawesome/free-solid-svg-icons';
     <h2 style={{margin:"25px"}}>Nombre de bourriche:  {count}</h2>
     
     <img style={{marginTop:"150px"}} data-aos="fade-up"   src={huitre7}/>
-   <label style={{marginRight:'10px',display: 'block',fontSize:'30px'}} htmlFor='quantité'>Quantité</label>
+   <label style={{marginRight:'10px',display: 'block',fontSize:'34px'}} htmlFor='quantité'>Quantité</label>
 
    <button value="+"  onClick={()=>{ setCounter(counter +1)}}style={{width:'50px'}}><i >+</i></button>
   

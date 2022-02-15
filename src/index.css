@@ -91,6 +91,7 @@ span:nth-child(2){
   align-items: center;
   width:100%;
   z-index:-10;
+  margin-top: -28px;
   height:80vh;
   background-image: url('./components/img/photohuitre.jpg');
   background-size: 100%;
@@ -257,7 +258,7 @@ padding:0 15px;
 
 }
 .title-oyester{
-  font-size: 60px;
+  font-size: 70px;
 }
 .colunm-client ul li{
   margin-top: 30px;
@@ -464,8 +465,11 @@ text-align: center;
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-repeat: none;
+    background-size: cover;
     text-align: center;
     font-size: 15px;
+    background-image: url('file:///C:/Users/laure/Desktop/huitre-project/src/components/img/abstrait.webp');
 
   
 
@@ -474,10 +478,15 @@ text-align: center;
     .title-oyester h2{
       transform: translateX(73px);
     }
+    .sale-oyster p{
+      margin-left: 48px;
+      font-size: 18px;
+    
+    }
 
   .sale-oyster img{
     margin-top: 25px;
-    width:34%;
+    width:23%;
     border-radius: 50%;
     
   
@@ -537,6 +546,9 @@ color:red;
 }
 .nav li{
 padding:20px;
+text-decoration: none;
+list-style-type: none;
+
 }
 
 
@@ -591,6 +603,7 @@ padding:20px;
   -moz-transform: translate3d(0,-36px,0);
   -ms-transform: translate3d(0,-36px,0);
   -o-transform: translate3d(0,-36px,0);
+  z-index: 5;
 }
  
   .burger span:nth-child(1) {
@@ -694,3 +707,4 @@ input{
 }
 .Containers-oyester h1{text-align: center;
 color:white}
+

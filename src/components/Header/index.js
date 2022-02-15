@@ -96,7 +96,7 @@ const handle=()=>{
                     <span></span>
                     </div>
                
-                    <Link to ='/Oyester'> <li style={{cursor:'pointer'}}  className='first-li'>NOS HUITRES</li>
+                    <Link style={{textDecoration:"none",listStyleType:"none"}} to ='/Oyester'> <li style={{cursor:'pointer'}}  className='first-li'>NOS HUITRES</li>
                            </Link>
 
               

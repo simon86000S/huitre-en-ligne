@@ -99,44 +99,7 @@ Les huîtres plates ont un goût plus prononcé en iode que les creuses. Elles s
  </div>
 
  </div>
- <div className="sale-oyster">
-   <h1 className='title-oyester'>Nos ventes</h1>
-   <h2>huitre baie de quiberon</h2>
-  <div style={{transform:'translateX(-33px)'}} className="wrapper-oyster">
-    
-    <Link  to="/sale"><img data-aos="fade-up"  src={huitrecreusebaie} /></Link>
-    <label style={{marginRight:'10px',display:'block',fontSize:'30px'}} htmlFor='quantité'>Quantité</label>
-    
-    <button value="+"  onClick={()=>{ setCount(count +1)}}style={{width:'50px'}}><i >+</i></button>
-   
-    
-{
-  stateButton ?  <button value="-" onClick={()=>{ setCount(count -1)}}style={{width:'50px'}}><i >-</i></button>:
-  <button disabled value="-"  onClick={()=>{ setCount(count -1)}}style={{width:'50px'}}><i >-</i></button>
-}
  
-    <p >Prix: 14 euros la bourriche (huitres plates)</p> 
-    <h2 style={{margin:"25px"}}>Nombre de bourriche:  {count}</h2>
-    
-    <img style={{marginTop:"150px"}} data-aos="fade-up"   src={huitre7}/>
-   <label style={{marginRight:'10px',display: 'block',fontSize:'30px'}} htmlFor='quantité'>Quantité</label>
-
-   <button value="+"  onClick={()=>{ setCounter(counter +1)}}style={{width:'50px'}}><i >+</i></button>
-  
-
-{
-  stateButton ? <button   value="-"  onClick={()=>{ setCounter(counter-1)}}style={{width:'50px'}}><i >-</i></button>:
-  <button disabled  value="-"  onClick={()=>{ setCounter(counter-1)}}style={{width:'50px'}}><i >-</i></button>
-}
- 
-   
-   
-    <p >Prix: 12 euros la bourriche (huitres creuses)</p><h2 style={{margin:"25px"}}>Nombre de bourriche:  {counter}</h2>
-
- 
-
-  </div>
- </div>
  
 
            </div>
