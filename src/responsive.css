@@ -82,7 +82,7 @@
 }
 .container2 img{
     
-
+position: relative;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -91,6 +91,7 @@
    
 
 }
+
 
 .slide .img-huitre{
     height: 138px;
@@ -114,12 +115,11 @@
 .containers .container3 p{
     color:black;
     text-align: center;
-    font-size:15px;
+    font-size:20px;
+    margin-left: 25px;
+    max-width: 1000px;
 }
-.containers .container3 img{
-    margin:0;
 
-}
 
 
 
