@@ -1,5 +1,5 @@
 
-import React,{useContext,useRef,useEffect} from 'react';
+import React,{useContext,useRef,useEffect,useState} from 'react';
 import {  UserContext} from '../UserContext';
 import { UserCount } from '../UserContext';
 import{UserCounter} from '../UserContext'
@@ -11,6 +11,7 @@ const Panier = ({state,setState}) => {
 
 const {count,setCount} = useContext(UserCount)
 const {counter,setCounter} = useContext(UserCounter)
+
 
  const handleChange=()=>{
   setState(false)
@@ -29,7 +30,11 @@ useEffect(() => {
  }
 }, [resultat,resultat1,count,counter]);
 
-
+const Reset=(e)=>{
+  setCount(0)
+  setCounter(0)
+  
+}
 
 
     return (
@@ -75,6 +80,7 @@ useEffect(() => {
  <div className='btnId'>
 
 <input style={{transform:'translate3d(87px, 33px, 0px)',backgroundColor:'#1a528b',color:'white',padding:"10px"}} type="submit" value='Envoyer votre commande'></input>
+<button onClick={Reset} style={{transform:'translate3d(87px, 44px, 0px)',backgroundColor:'#1a528b',color:'white',padding:"10px",width:"45%"}} type="button" value='Reset'>Reset</button>
  </div>
 
   
