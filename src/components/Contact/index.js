@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Contact = () => {
+
+    
   return (
     <div className='Contact'>
 
@@ -43,7 +45,7 @@ const Contact = () => {
 
 <div className='inputBox1'>
    
-    <button type='submit'>Envoyer</button>
+    <button>Envoyer</button>
 </div>
 
 
