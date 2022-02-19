@@ -5,7 +5,7 @@ const Contact = () => {
     <div className='Contact'>
 
         <div className='form'>
-        <button style={{border:"1px solid #000",width:'10%',marginLeft:"15px"}}><h1>X</h1></button>
+        <button style={{border:"1px solid #000",width:'10%',marginLeft:"15px",marginTop:'10px'}}><h1>X</h1></button>
 <div className='inputBox1'>
     <label htmlFor='Entrez votre nom'>Entrez Votre Nom</label>
     <input style={{textAlign:"center"}} placeholder='Votre nom' type='text'></input>
