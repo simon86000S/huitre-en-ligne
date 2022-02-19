@@ -9,6 +9,7 @@ import Wrapper from '../Wrapper';
 import Signup from '../Signup';
 import Welcome from '../Welcome';
 import Oyester from '../Oyester';
+import Contact from '../Contact';
 import { UserContext, UserCount, UserCounter,Userbutton} from '../UserContext';
 import "../../index.css";
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
@@ -50,6 +51,7 @@ function App() {
      <Route path='/Signup' component={Signup}/>
      <Route path='/Oyester' component={Oyester}></Route>
      <Route path='/Panier' component={Panier}/>
+     <Route path='/Contact'component={Contact}></Route>
    
      
      

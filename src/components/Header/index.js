@@ -106,7 +106,7 @@ const handle=()=>{
                
                 <li style={{cursor:'pointer'}}>NOS PRODUCTEURS</li>
                
-                <li style={{cursor:'pointer'}}>CONTACT</li>
+                <Link style={{textDecoration:"none",listStyleType:"none"}} to ='/Contact'><li style={{cursor:'pointer'}}>CONTACT</li></Link>
                </ul>
             </nav>
            
