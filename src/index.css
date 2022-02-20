@@ -721,6 +721,8 @@ color:white}
 }
 
 /*Contact*/
+
+
 .form{
   background: rgb(238, 231, 231);
   width:100%;
@@ -729,6 +731,9 @@ color:white}
   flex-direction: column;
   text-align: center;
   gap:35px;
+  font-family: 'Artifika', serif;
+  font-size: 12px;
+ 
 
   
 }
@@ -737,7 +742,7 @@ color:white}
 }
 .inputBox1{
   width:100%;
-  padding-top:50px;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -745,9 +750,11 @@ color:white}
  
 }
 
+
 .form input{
   width:60%;
   background-color: #1a528b;
   color:white;
+  padding:0;
 }
 
