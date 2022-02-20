@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <div className='Contact'>
 
-        <div className='form'>
+        <div className='form1'>
         <Link style={{listStyleType:'none'}}to='/' style={{textDecoration:"none",border:"1px solid #000",width:'10%',marginLeft:"15px",marginTop:'10px'}}><h1>X</h1></Link>
 
         <form ref={form} onSubmit={sendEmail}>
