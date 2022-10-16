@@ -3,7 +3,7 @@ import baie from '../img/photo1.jpg';
 import huitrespeciale from'../img/huitrespeciale.jpg';
 import photo1 from '../img/photo1.jpg';
 import photo2 from '../img/photo2.jpg';
-import photo3 from '../img/photo3.jpg';
+import photo3 from '../img/photo3.jpg'
 import photo4 from '../img/photo4.jpg';
 import photo5 from '../img/photo5.jpg';
 import photo6 from '../img/photo6.jpg';
